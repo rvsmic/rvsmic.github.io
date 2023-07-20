@@ -2,10 +2,55 @@
 <html lang="en"></html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rvsmic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="menuClick.js"></script>
 </head>
-<body>
-    <h1>Test</h1>
-    <p>Test paragraph</p>
+<body onload="menuSetup()">
+  <div class="pageBody">
+    <div id="bigTitle">
+      Michal<br>Rusinek
+    </div>
+    <div id="menu" tabindex="0">
+      <div id="menuButton">
+
+      </div>
+      <div id="menuContent">
+        <div class="menuItem">
+          <a href="index.html">One</a>
+        </div>
+        <div class="menuItem">
+          <a href="about.html">Two</a>
+        </div>
+        <div class="menuItem">
+          <a href="contact.html">Three</a>
+        </div>
+      </div>
+    </div>
+    <div id="mainFootnote">
+      <img id="arrow" src="Assets/Arrow.svg">
+    </div>
+  </div>
+
+  <div class="pageBody">
+    <div class="leftContent">
+      <div class="title">
+        About me
+      </div>
+      <div class="description">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia culpa ab fuga odit eveniet. Consectetur recusandae in impedit suscipit hic provident consequatur tempora repellat explicabo vero quidem numquam, repellendus alias.
+      </div>
+    </div>
+
+    <div class="rightContent">
+      <div class="title">
+        UMM
+      </div>
+      <div class="description">
+        WORK IN PROGRESS...
+      </div>
+    </div>
+  </div>
 </body>
 </html>
