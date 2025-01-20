@@ -66,15 +66,12 @@
     },
     methods: {
       downloadCv() {
-        const path =
-          this.lang === "en" ? "src/assets/cv-en.pdf" : "src/assets/cv-pl.pdf";
+        const path = this.lang === "en" ? "src/cv-en.pdf" : "src/cv-pl.pdf";
 
         fetch(path)
           .then((response) => {
             if (!response.ok) {
-              alert(
-                "Błąd podczas pobierania pliku. Plik CV dostępny jest również na moim LinkedIn :)"
-              );
+              throw new Error("Network response was not ok");
             }
             return response.blob();
           })
@@ -91,9 +88,7 @@
             URL.revokeObjectURL(url);
           })
           .catch((error) => {
-            alert(
-              "Błąd podczas pobierania pliku. Plik CV dostępny jest również na moim LinkedIn :)"
-            );
+            alert(this.t.download_error[this.lang]);
           });
       },
     },

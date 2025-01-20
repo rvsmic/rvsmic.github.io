@@ -81,6 +81,10 @@
     "button": {
       "en": "Download PDF",
       "pl": "Pobierz PDF"
+    },
+    "download_error": {
+      "en": "Error while downloading file. CV file is also available on my LinkedIn :)",
+      "pl": "Błąd podczas pobierania pliku. Plik CV dostępny jest również na moim LinkedIn :)"
     }
   },
   "projects": {
