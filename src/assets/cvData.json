@@ -1,0 +1,354 @@
+{
+  "en": {
+    "work": {
+      "title": "Work experience",
+      "elements": [
+        {
+          "title": "Junior Python Developer",
+          "vertical_elements": [
+            "eOS Poland",
+            "08.2023 - 11.2024",
+            [
+              "Cooperation in a software development team on creating various in-house projects",
+              "Writing and running unit tests",
+              "Code Review process",
+              "New employees support"
+            ]
+          ],
+          "horizontal_elements": [
+            "Python",
+            "Flask",
+            "Celery",
+            "Pytest",
+            "Vue.js",
+            "Javascript",
+            "SQL",
+            "Linux",
+            "Git",
+            "Docker"
+          ]
+        },
+        {
+          "title": "Intern",
+          "vertical_elements": [
+            "Lubelskie Center for Innovation and Technology",
+            "06.2023",
+            ["Team support in everyday tasks", "Employee service"]
+          ]
+        }
+      ]
+    },
+    "edu": {
+      "title": "Education",
+      "elements": [
+        {
+          "title": "Marie Curie-Skłodowska University in Lublin",
+          "vertical_elements": [
+            "Computer Science Bachelor",
+            "2021 - 2024",
+            [
+              "Average mark: 4.93 (equivalent to american 3.94 GPA)",
+              "Bachelor's diploma: 5.0 (equivalent to american 4.0 GPA)",
+              "Rector's scholarship in 2022 - 2024",
+              "Year representative for all studies"
+            ]
+          ]
+        }
+      ]
+    },
+    "tech": {
+      "title": "Technical skills",
+      "elements": [
+        {
+          "title": "Programming languages",
+          "horizontal_elements": [
+            "Python",
+            "Java",
+            "SQL",
+            "Javascript",
+            "C++",
+            "C",
+            "Swift"
+          ]
+        },
+        {
+          "title": "Frameworks",
+          "horizontal_elements": ["Flask", "Pytest", "Celery", "Vue.js"]
+        },
+        {
+          "title": "Tools",
+          "horizontal_elements": ["Linux", "Git", "Docker", "Vim", "Vs Code"]
+        }
+      ]
+    },
+    "soft": {
+      "title": "Interpersonal skills",
+      "elements": [
+        {
+          "title": "Communication"
+        },
+        {
+          "title": "Teamwork"
+        },
+        {
+          "title": "Problem solving"
+        },
+        {
+          "title": "Creativity"
+        },
+        {
+          "title": "Time management"
+        },
+        {
+          "title": "Adaptability"
+        },
+        {
+          "title": "Critical thinking"
+        }
+      ]
+    },
+    "lang": {
+      "title": "Languages",
+      "elements": [
+        {
+          "title": "English",
+          "vertical_elements": ["Fluent"]
+        },
+        {
+          "title": "Polish",
+          "vertical_elements": ["Native"]
+        }
+      ]
+    },
+    "intr": {
+      "title": "Interests",
+      "elements": [
+        {
+          "title": "Programming"
+        },
+        {
+          "title": "New technologies"
+        },
+        {
+          "title": "Music"
+        },
+        {
+          "title": "Snowboarding"
+        },
+        {
+          "title": "Collecting glassware"
+        }
+      ]
+    }
+  },
+  "pl": {
+    "work": {
+      "title": "Doświadczenie zawodowe",
+      "elements": [
+        {
+          "title": "Junior Python Developer",
+          "vertical_elements": [
+            "eOS Poland",
+            "08.2023 - 11.2024",
+            [
+              "Współpraca w zespole rozwoju oprogramowania przy tworzeniu różnych projektów in-house",
+              "Tworzenie i wykonywanie testów jednostkowych",
+              "Proces Code Review",
+              "Wsparcie nowych pracowników"
+            ]
+          ],
+          "horizontal_elements": [
+            "Python",
+            "Flask",
+            "Celery",
+            "Pytest",
+            "Vue.js",
+            "Javascript",
+            "SQL",
+            "Linux",
+            "Git",
+            "Docker"
+          ]
+        },
+        {
+          "title": "Stażysta",
+          "vertical_elements": [
+            "Lubelskie Centrum Innowacji i Technologii",
+            "06.2023",
+            ["Wsparcie zespołów w codziennych zadaniach", "Obsługa pracowników"]
+          ]
+        }
+      ]
+    },
+    "edu": {
+      "title": "Wykształcenie",
+      "elements": [
+        {
+          "title": "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
+          "vertical_elements": [
+            "Licencjat Informatyki",
+            "2021 - 2024",
+            [
+              "Średnia ocen: 4.93",
+              "Egzamin dyplomowy: 5.0",
+              "Stypendium Rektora w latach 2022 - 2024",
+              "Reprezentant roku przez całe studia"
+            ]
+          ]
+        }
+      ]
+    },
+    "tech": {
+      "title": "Umiejętności techniczne",
+      "elements": [
+        {
+          "title": "Języki programowania",
+          "horizontal_elements": [
+            "Python",
+            "Java",
+            "SQL",
+            "Javascript",
+            "C++",
+            "C",
+            "Swift"
+          ]
+        },
+        {
+          "title": "Frameworki",
+          "horizontal_elements": ["Flask", "Pytest", "Celery", "Vue.js"]
+        },
+        {
+          "title": "Narzędzia",
+          "horizontal_elements": ["Linux", "Git", "Docker", "Vim", "Vs Code"]
+        }
+      ]
+    },
+    "soft": {
+      "title": "Umiejętności interpersonalne",
+      "elements": [
+        {
+          "title": "Komunikacja"
+        },
+        {
+          "title": "Praca zespołowa"
+        },
+        {
+          "title": "Rozwiązywanie problemów"
+        },
+        {
+          "title": "Kreatywność"
+        },
+        {
+          "title": "Zarządzanie czasem"
+        },
+        {
+          "title": "Adaptacyjność"
+        },
+        {
+          "title": "Myślenie krytyczne"
+        }
+      ]
+    },
+    "lang": {
+      "title": "Języki",
+      "elements": [
+        {
+          "title": "Angielski",
+          "vertical_elements": ["Biegły"]
+        },
+        {
+          "title": "Polski",
+          "vertical_elements": ["Ojczysty"]
+        }
+      ]
+    },
+    "intr": {
+      "title": "Zainteresowania",
+      "elements": [
+        {
+          "title": "Programowanie"
+        },
+        {
+          "title": "Nowe technologie"
+        },
+        {
+          "title": "Muzyka"
+        },
+        {
+          "title": "Snowboard"
+        },
+        {
+          "title": "Kolekcjonowanie szkła"
+        }
+      ]
+    }
+  },
+  "other": {
+    "agreement": {
+      "en": "I agree to the processing of my personal data for the purposes necessary to carry out the recruitment process.",
+      "pl": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji."
+    },
+    "about": {
+      "en": {
+        "title": "About me",
+        "text": "I am an ambitious software developer with a strong focus on development and achieving set goals. I value the opportunity to continuously expand my knowledge and take on new challenges, while offering high technical and interpersonal skills."
+      },
+      "pl": {
+        "title": "O mnie",
+        "text": "Jestem ambitnym programistą z silnym nastawieniem na rozwój i osiąganie wyznaczonych celów. Cenię sobie możliwość ciągłego poszerzania wiedzy i podejmowania nowych wyzwań, zarazem oferując wysokie kompetencje techniczne oraz interpersonalne."
+      }
+    },
+    "contact": {
+      "en": {
+        "title": "Contact",
+        "elements": [
+          {
+            "title": "Email",
+            "value": "michalrusinek02@gmail.com"
+          },
+          {
+            "title": "Phone",
+            "value": "+48 796 386 994"
+          },
+          {
+            "title": "Website",
+            "value": "rvsmic.github.io"
+          },
+          {
+            "title": "LinkedIn",
+            "value": "linkedin.com/in/rusinekm"
+          },
+          {
+            "title": "GitHub",
+            "value": "github.com/rvsmic"
+          }
+        ]
+      },
+      "pl": {
+        "title": "Kontakt",
+        "elements": [
+          {
+            "title": "Email",
+            "value": "michalrusinek02@gmail.com"
+          },
+          {
+            "title": "Telefon",
+            "value": "+48 796 386 994"
+          },
+          {
+            "title": "Strona internetowa",
+            "value": "rvsmic.github.io"
+          },
+          {
+            "title": "LinkedIn",
+            "value": "linkedin.com/in/rusinekm"
+          },
+          {
+            "title": "GitHub",
+            "value": "github.com/rvsmic"
+          }
+        ]
+      }
+    }
+  }
+}

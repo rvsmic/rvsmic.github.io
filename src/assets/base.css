@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-mono text-base leading-normal;
+    @apply bg-light-background dark:bg-dark-background;
+    @apply text-light-text dark:text-dark-text;
+  }
+
+  main {
+    @apply flex flex-col items-center justify-center;
+    @apply min-h-screen;
+    @apply max-w-screen-lg;
+    @apply mx-auto;
+    @apply py-10vh;
+    @apply px-5vw;
+    @apply lowercase;
+  }
+
+  h1 {
+    @apply xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl text-4xl;
+    @apply font-bold;
+    @apply lowercase;
+  }
+
+  h2 {
+    @apply xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg;
+    @apply text-light-accent-2 dark:text-dark-accent-2;
+    @apply py-1;
+    @apply lowercase;
+  }
+
+  h3 {
+    @apply xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm;
+    @apply text-light-accent-1 dark:text-dark-accent-1;
+    @apply py-1;
+    @apply lowercase;
+  }
+
+  p {
+    @apply md:text-base text-xs;
+    @apply text-justify;
+    @apply lowercase;
+  }
+
+  button {
+    @apply md:text-base text-xs;
+    @apply text-dark-text dark:text-light-text;
+    @apply bg-light-accent-2 dark:bg-dark-accent-2;
+    @apply hover:bg-light-accent-1 dark:hover:bg-dark-accent-1;
+    @apply px-4 py-2;
+    @apply mx-2 my-2;
+    @apply rounded-full;
+    @apply lowercase;
+  }
+}
+
+@layer components {
+  .home {
+    @apply flex flex-col items-center justify-center;
+    @apply h-screen;
+    @apply lowercase;
+  }
+
+  .transition-cover {
+    @apply w-full h-full;
+    @apply bg-light-background dark:bg-dark-background;
+    @apply z-20 fixed top-0 left-0;
+    @apply flex flex-col items-center justify-center;
+    
+  }
+
+  .nav-bar {
+    @apply flex justify-between items-center;
+    @apply h-10vh;
+    @apply xl:px-1/4 lg:px-1/8 md:px-20 sm:px-10 px-5 my-auto;
+    @apply lg:text-xl md:text-lg text-base lowercase;
+    @apply fixed bottom-0 left-0 right-0;
+    @apply z-30;
+    @apply lowercase;
+  }
+
+  .nav-bar-bg {
+    @apply h-10vh;
+    @apply bg-light-background dark:bg-dark-background;
+    @apply bg-opacity-60;
+    @apply backdrop-blur-lg;
+    @apply fixed bottom-0 left-0 right-0;
+    @apply z-10;
+  }
+
+  .nav-bar-icon {
+    @apply w-7;
+    @apply p-1.5;
+    @apply rounded-full;
+    @apply hover:cursor-pointer border-2 hover:border-light-accent-2 hover:dark:border-dark-accent-2 hover:fill-dark-text hover:dark:fill-light-text;
+  }
+
+  .nav-obj {
+    @apply lg:border-t-8 md:border-t-6 border-t-4 border-transparent;
+    @apply pb-2;
+  }
+
+  .nav-obj:hover {
+    @apply text-light-accent-1 dark:text-dark-accent-1;
+    @apply cursor-pointer;
+    @apply lg:border-t-8 md:border-t-6 border-t-4 border-light-accent-1 dark:border-dark-accent-1;
+  }
+
+  .spacer {
+    @apply h-8;
+    @apply mt-8;
+    @apply border-t-2 border-light-text dark:border-dark-text;
+    @apply opacity-20;
+  }
+
+  .small-spacer {
+    @apply h-4;
+  }
+
+  .title {
+    @apply flex justify-center items-center;
+    @apply h-10vh;
+    @apply lg:text-4xl md:text-3xl text-2xl;
+    @apply fixed top-0 left-0 right-0;
+    @apply z-20;
+    @apply lowercase;
+  }
+
+  .title-bg {
+    @apply h-10vh;
+    @apply bg-light-background dark:bg-dark-background;
+    @apply bg-opacity-60;
+    @apply backdrop-blur-lg;
+    @apply fixed top-0 left-0 right-0;
+    @apply z-10;
+  }
+
+  .link {
+    @apply text-light-accent-1 dark:text-dark-accent-1;
+    @apply hover:text-light-accent-2 dark:hover:text-dark-accent-2;
+    @apply lowercase;
+  }
+
+  .horizontal-elements {
+    @apply flex flex-wrap;
+    @apply my-2 max-w-xl;
+  }
+
+  .h-element {
+    @apply mr-1 mb-1 md:px-2 px-1 md:py-1 py-0.5;
+    @apply md:text-base text-xs;
+    @apply rounded-full md:border-2 border border-light-accent-1 dark:border-dark-accent-1;
+    @apply bg-opacity-10 dark:bg-opacity-10 bg-light-accent-1 dark:bg-dark-accent-1;
+    @apply text-light-text dark:text-dark-text
+  }
+
+  .cv-bg {
+    @apply w-a4 h-a4;
+    @apply overflow-clip;
+    @apply bg-light-gray;
+    @apply rounded-3xl;
+    @apply border-dark-gray border;
+  }
+
+  .cv-header {
+    @apply flex flex-col justify-center;
+    @apply h-32;
+    @apply pb-8mm px-8mm;
+    @apply mb-1;
+    @apply bg-medium-gray;
+    @apply border-dark-gray border;
+    @apply rounded-3xl;
+  }
+
+  .cv-title {
+    @apply text-5xl;
+    @apply font-bold;
+    @apply text-light-text;
+  }
+
+  .cv-subtitle {
+    @apply text-xl;
+    @apply text-light-accent-2;
+    @apply pt-2;
+  }
+
+  .cv-section-bg {
+    @apply bg-white;
+    @apply rounded-3xl;
+    @apply border-dark-gray border;
+    @apply px-2.5 py-0.5;
+    @apply pb-6mm;
+    @apply mb-1mm m-1mm;
+    @apply text-light-text;
+    @apply text-xs;
+    @apply leading-tight;
+  }
+
+  .cv-section-title {
+    @apply text-lg;
+    @apply text-light-accent-1;
+  }
+
+  .cv-section-subtitle {
+    @apply text-light-text;
+    @apply font-bold;
+  }
+
+  .cv-column {
+    @apply grid;
+    @apply float-start;
+  }
+
+  .cv-h-element {
+    @apply mr-1 mt-1 px-2;
+    @apply pb-3mm;
+    @apply rounded-3xl border-dark-gray border;
+    @apply bg-light-gray;
+    @apply text-light-text;
+    @apply text-3xs;
+  }
+
+  .cv-agreement {
+    @apply text-2xs;
+    @apply text-light-accent-1;
+    @apply mx-4mm my-2 text-justify;
+
+  }
+}
