@@ -1,16 +1,17 @@
 # Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a source code repo for my portfolio website available at [rvsmic.github.io](https://rvsmic.github.io). Enjoy :)
 
-## Recommended IDE Setup
+# Technical Details
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Technologies Used
 
-## Customize configuration
+- Vue.js
+- Tailwind CSS
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Usage
 
-## Project Setup
+### Project Setup
 
 ```sh
 npm install
