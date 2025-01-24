@@ -24,7 +24,7 @@ export default {
         'dark-background': '#1e251e',
         'dark-text': '#f7f7f7',
         'dark-accent-1': '#ff7d54',
-        'dark-accent-2': '#96f296',
+        'dark-accent-2': '#95ff95',
         'dark-gray': '#c0c0c0',
         'medium-gray': '#ededed',
         'light-gray': '#f4f4f4',
