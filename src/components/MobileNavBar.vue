@@ -1,11 +1,17 @@
 <template>
-  <div class="nav-bar">
+  <div
+    class="mobile-nav-bar"
+    :style="{
+      visibility: this.menuShown ? 'visible' : 'hidden',
+    }"
+  >
     <NavBarObj
-      class="nav-obj"
+      class="mobile-nav-obj"
       v-for="el in elements"
       :text="t[el.name][lang]"
       :link="el.link"
       :key="el.name"
+      @click="toggleMenu"
     />
     <div class="nav-bar-icon" @click="toggleLang">
       <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +32,23 @@
       </svg>
     </div>
   </div>
-  <div class="nav-bar-bg" />
+  <div
+    class="mobile-nav-bar-bg"
+    :style="{
+      visibility: this.menuShown ? 'visible' : 'hidden',
+    }"
+  />
+  <div class="mobile-menu-button-box">
+    <button
+      class="mobile-menu-button"
+      @click="toggleMenu"
+      :style="{
+        visibility: this.menuShown ? 'hidden' : 'visible',
+      }"
+    >
+      ...
+    </button>
+  </div>
 </template>
 
 <script>
@@ -51,6 +73,7 @@
     data() {
       return {
         t: translations.navbar,
+        menuShown: false,
       };
     },
     methods: {
@@ -59,7 +82,11 @@
         setTimeout(() => this.$emit("toggle-lang"), 400);
         setTimeout(() => this.$emit("toggle-cover", false, true), 400);
       },
-      toggleCover() {},
+      toggleMenu() {
+        this.$emit("toggle-cover", true, true);
+        setTimeout(() => (this.menuShown = !this.menuShown), 400);
+        setTimeout(() => this.$emit("toggle-cover", false, true), 400);
+      },
     },
   };
 </script>

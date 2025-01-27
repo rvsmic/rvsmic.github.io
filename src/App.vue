@@ -6,16 +6,24 @@
     @toggle-lang="toggleLang"
     @toggle-cover="toggleCover"
   />
-  <div class="transition-cover" :style="transitionCoverStyle">:)</div>
+  <MobileNavBar
+    :lang="lang"
+    :elements="navBarElements"
+    @toggle-lang="toggleLang"
+    @toggle-cover="toggleCover"
+  />
+  <div class="transition-cover" :style="transitionCoverStyle">'-'</div>
 </template>
 
 <script>
   import { RouterView } from "vue-router";
   import NavBar from "@/components/NavBar.vue";
+  import MobileNavBar from "@/components/MobileNavBar.vue";
 
   export default {
     components: {
       NavBar,
+      MobileNavBar,
     },
     computed: {
       navBarElements() {

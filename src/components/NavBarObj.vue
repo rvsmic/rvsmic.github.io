@@ -1,5 +1,5 @@
 <template>
-  <RouterLink class="nav-obj" :to="link">{{ text }}</RouterLink>
+  <RouterLink :to="link">{{ text }}</RouterLink>
 </template>
 
 <script>

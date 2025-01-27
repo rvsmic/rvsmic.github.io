@@ -67,12 +67,12 @@
   .transition-cover {
     @apply w-full h-full;
     @apply bg-light-background dark:bg-dark-background;
-    @apply z-20 fixed top-0 left-0;
+    @apply z-40 fixed top-0 left-0;
     @apply flex flex-col items-center justify-center;
-    
   }
 
   .nav-bar {
+    @apply sm:visible invisible;
     @apply flex justify-between items-center;
     @apply h-10vh;
     @apply xl:px-1/4 lg:px-1/8 md:px-20 sm:px-10 px-5 my-auto;
@@ -83,6 +83,7 @@
   }
 
   .nav-bar-bg {
+    @apply sm:visible invisible;
     @apply h-10vh;
     @apply bg-light-background dark:bg-dark-background;
     @apply bg-opacity-60;
@@ -91,15 +92,55 @@
     @apply z-10;
   }
 
+  .mobile-nav-bar {
+    @apply grid justify-items-center text-base lowercase content-center;
+    @apply fixed top-1/4 bottom-1/4 left-0 right-0;
+    @apply z-20;
+  }
+
+  .mobile-nav-bar-bg {
+    @apply bg-light-background dark:bg-dark-background;
+    @apply bg-opacity-60;
+    @apply backdrop-blur-lg;
+    @apply fixed top-0 bottom-0 left-0 right-0;
+    @apply z-10;
+  }
+
+  .mobile-nav-obj {
+    @apply lg:border-t-8 md:border-t-6 border-t-4 border-transparent;
+    @apply text-center;
+    @apply mb-5;
+  }
+
+  .mobile-nav-obj:hover {
+    @apply text-light-accent-1 dark:text-dark-accent-1;
+    @apply cursor-pointer;
+    @apply lg:border-t-8 md:border-t-6 border-t-4 border-light-accent-1 dark:border-dark-accent-1;
+  }
+
+  .mobile-menu-button-box {
+    @apply sm:hidden;
+    @apply fixed left-0 right-0 bottom-2;
+    @apply z-10 w-screen;
+    @apply items-center text-center;
+  }
+
+  .mobile-menu-button {
+    @apply bg-light-accent-2 dark:bg-dark-accent-2;
+    @apply w-16 h-16;
+    @apply text-center;
+  }
+
   .nav-bar-icon {
-    @apply w-7;
-    @apply p-1.5;
+    @apply md:w-7 w-5 md:h-7 h-5;
+    @apply md:p-1.5 p-1 md:mb-1.5 sm:mb-1;
     @apply rounded-full;
     @apply hover:cursor-pointer border-2 hover:border-light-accent-2 hover:dark:border-dark-accent-2 hover:fill-dark-text hover:dark:fill-light-text;
   }
 
   .nav-obj {
     @apply lg:border-t-8 md:border-t-6 border-t-4 border-transparent;
+    @apply text-center;
     @apply pb-2;
   }
 
@@ -121,9 +162,9 @@
   }
 
   .title {
-    @apply flex justify-center items-center;
+    @apply flex justify-center text-center items-center;
     @apply h-10vh;
-    @apply lg:text-4xl md:text-3xl text-2xl;
+    @apply lg:text-4xl md:text-3xl sm:text-2xl text-xl;
     @apply fixed top-0 left-0 right-0;
     @apply z-20;
     @apply lowercase;
@@ -154,7 +195,7 @@
     @apply md:text-base text-xs;
     @apply rounded-full md:border-2 border border-light-accent-1 dark:border-dark-accent-1;
     @apply bg-opacity-10 dark:bg-opacity-10 bg-light-accent-1 dark:bg-dark-accent-1;
-    @apply text-light-text dark:text-dark-text
+    @apply text-light-text dark:text-dark-text;
   }
 
   .cv-bg {
@@ -227,6 +268,5 @@
     @apply text-2xs;
     @apply text-light-accent-1;
     @apply mx-4mm my-2 text-justify;
-
   }
 }
