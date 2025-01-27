@@ -126,9 +126,16 @@
   }
 
   .mobile-menu-button {
-    @apply bg-light-accent-2 dark:bg-dark-accent-2;
+    @apply border-2 border-light-accent-2 dark:border-dark-accent-2;
+    @apply text-light-accent-2 dark:text-dark-accent-2;
+    @apply bg-light-background dark:bg-dark-background;
+    @apply bg-opacity-60;
+    @apply backdrop-blur-lg;
     @apply w-16 h-16;
     @apply text-center;
+    @apply hover:border-light-accent-1 dark:hover:border-dark-accent-1;
+    @apply hover:text-light-accent-1 hover:dark:text-dark-accent-1;
+    @apply hover:bg-light-background hover:dark:bg-dark-background;
   }
 
   .nav-bar-icon {
@@ -196,77 +203,5 @@
     @apply rounded-full md:border-2 border border-light-accent-1 dark:border-dark-accent-1;
     @apply bg-opacity-10 dark:bg-opacity-10 bg-light-accent-1 dark:bg-dark-accent-1;
     @apply text-light-text dark:text-dark-text;
-  }
-
-  .cv-bg {
-    @apply w-a4 h-a4;
-    @apply overflow-clip;
-    @apply bg-light-gray;
-    @apply rounded-3xl;
-    @apply border-dark-gray border;
-  }
-
-  .cv-header {
-    @apply flex flex-col justify-center;
-    @apply h-32;
-    @apply pb-8mm px-8mm;
-    @apply mb-1;
-    @apply bg-medium-gray;
-    @apply border-dark-gray border;
-    @apply rounded-3xl;
-  }
-
-  .cv-title {
-    @apply text-5xl;
-    @apply font-bold;
-    @apply text-light-text;
-  }
-
-  .cv-subtitle {
-    @apply text-xl;
-    @apply text-light-accent-2;
-    @apply pt-2;
-  }
-
-  .cv-section-bg {
-    @apply bg-white;
-    @apply rounded-3xl;
-    @apply border-dark-gray border;
-    @apply px-2.5 py-0.5;
-    @apply pb-6mm;
-    @apply mb-1mm m-1mm;
-    @apply text-light-text;
-    @apply text-xs;
-    @apply leading-tight;
-  }
-
-  .cv-section-title {
-    @apply text-lg;
-    @apply text-light-accent-1;
-  }
-
-  .cv-section-subtitle {
-    @apply text-light-text;
-    @apply font-bold;
-  }
-
-  .cv-column {
-    @apply grid;
-    @apply float-start;
-  }
-
-  .cv-h-element {
-    @apply mr-1 mt-1 px-2;
-    @apply pb-3mm;
-    @apply rounded-3xl border-dark-gray border;
-    @apply bg-light-gray;
-    @apply text-light-text;
-    @apply text-3xs;
-  }
-
-  .cv-agreement {
-    @apply text-2xs;
-    @apply text-light-accent-1;
-    @apply mx-4mm my-2 text-justify;
   }
 }

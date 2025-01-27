@@ -59,7 +59,6 @@
         setTimeout(() => this.$emit("toggle-lang"), 400);
         setTimeout(() => this.$emit("toggle-cover", false, true), 400);
       },
-      toggleCover() {},
     },
   };
 </script>
