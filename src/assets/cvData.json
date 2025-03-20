@@ -42,6 +42,14 @@
       "title": "Education",
       "elements": [
         {
+          "title": "Warsaw University of Technology",
+          "vertical_elements": [
+            "Computer Science Master",
+            "2025 - currently",
+            ["In progress"]
+          ]
+        },
+        {
           "title": "Marie Curie-Skłodowska University in Lublin",
           "vertical_elements": [
             "Computer Science Bachelor",
@@ -183,6 +191,14 @@
     "edu": {
       "title": "Wykształcenie",
       "elements": [
+        {
+          "title": "Politechnika Warszawska",
+          "vertical_elements": [
+            "Magister Informatyki",
+            "2025 - obecnie",
+            ["W trakcie"]
+          ]
+        },
         {
           "title": "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
           "vertical_elements": [

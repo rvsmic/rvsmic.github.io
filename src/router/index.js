@@ -36,6 +36,10 @@ const router = createRouter({
       name: 'contactpage',
       component: ContactPage
     },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: { name: 'mainpage' }
+    }
   ]
 })
 
