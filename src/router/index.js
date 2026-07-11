@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import MainPage from '../views/MainPage.vue'
 import AboutPage from '@/views/AboutPage.vue'
 import CvPage from '../views/CvPage.vue'
@@ -6,10 +6,7 @@ import ProjectsPage from '@/views/ProjectsPage.vue'
 import ContactPage from '@/views/ContactPage.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  scrollBehavior() {
-    return { top: 0, left: 0 }
-  },
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
@@ -42,5 +39,21 @@ const router = createRouter({
     }
   ]
 })
+
+router.options.scrollBehavior = (to, from, savedPosition) => {
+  if (savedPosition) {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(savedPosition)
+      }, 600)
+    })
+  } else {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({ top: 0, left: 0 })
+      }, 600)
+    })
+  }
+}
 
 export default router

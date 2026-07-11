@@ -2,34 +2,38 @@
 
 This is a source code repo for my portfolio website available at [rvsmic.github.io](https://rvsmic.github.io). Enjoy :)
 
-# Technical Details
+## Theme Colors
 
-## Technologies Used
+![Theme Colors](theme-colors.svg)
+
+## Technical Details
+
+### Technologies Used
 
 - Vue.js
 - Tailwind CSS
 
-## Usage
+### Usage
 
-### Project Setup
+#### Project Setup
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+#### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+#### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
 
-### Deploy to GitHub Pages
+#### Deploy to GitHub Pages
 
 ```sh
 npm run deploy

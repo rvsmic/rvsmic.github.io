@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "pdfmake": "^0.3.11",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5",
     "vuex": "^4.1.0",

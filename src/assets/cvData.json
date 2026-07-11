@@ -4,36 +4,81 @@
       "title": "Work experience",
       "elements": [
         {
-          "title": "Junior Python Developer",
-          "vertical_elements": [
-            "eOS Poland",
-            "08.2023 - 11.2024",
-            [
-              "Cooperation in a software development team on creating various in-house projects",
-              "Writing and running unit tests",
-              "Code Review process",
-              "New employees support"
-            ]
-          ],
-          "horizontal_elements": [
-            "Python",
-            "Flask",
-            "Celery",
-            "Pytest",
-            "Vue.js",
-            "Javascript",
-            "SQL",
-            "Linux",
-            "Git",
-            "Docker"
+          "company": "Grid Dynamics",
+          "location": "Warsaw, Poland",
+          "elements": [
+            {
+              "title": "Junior Machine Learning Engineer",
+              "vertical_elements": [
+                "06.2026 - currently",
+                [
+                  "Development of Generative AI solutions for the investment sector",
+                  "Prompt engineering and optimization",
+                  "Implementation and execution of unit tests ensuring solution stability"
+                ]
+              ],
+              "horizontal_elements": [
+                "Python",
+                "Flask",
+                "Pytest",
+                "Redis",
+                "Git",
+                "Agentic AI",
+                "Prompt Engineering"
+              ]
+            },
+            {
+              "title": "Machine Learning Engineer Intern",
+              "vertical_elements": [
+                "12.2025 - 05.2026",
+                [
+                  "Completion of comprehensive training programs in Data Engineering and Machine Learning",
+                  "Practical application of modern data analysis and processing tools",
+                  "Obtaining AWS certification as part of the introduction to cloud technologies"
+                ]
+              ],
+              "horizontal_elements": [
+                "Python",
+                "Pandas",
+                "Git",
+                "SQL",
+                "Docker",
+                "Airflow",
+                "Spark",
+                "Jenkins",
+                "MLflow",
+                "AWS"
+              ]
+            }
           ]
         },
         {
-          "title": "Intern",
-          "vertical_elements": [
-            "Lubelskie Center for Innovation and Technology",
-            "06.2023",
-            ["Team support in everyday tasks", "Employee service"]
+          "company": "eOS Poland",
+          "location": "Lublin, Poland",
+          "elements": [
+            {
+              "title": "Junior Python Developer / Python Developer Intern",
+              "vertical_elements": [
+                "08.2023 - 11.2024",
+                [
+                  "Creation and maintenance of internal projects in the full web application lifecycle",
+                  "Ensuring code reliability through the implementation of unit tests",
+                  "Technical mentoring and support in the onboarding processes of new employees"
+                ]
+              ],
+              "horizontal_elements": [
+                "Python",
+                "Flask",
+                "Celery",
+                "Pytest",
+                "Vue.js",
+                "Javascript",
+                "SQL",
+                "Linux",
+                "Git",
+                "Docker"
+              ]
+            }
           ]
         }
       ]
@@ -44,7 +89,7 @@
         {
           "title": "Warsaw University of Technology",
           "vertical_elements": [
-            "Computer Science Master",
+            "Computer Science Engineering Master",
             "2025 - currently",
             ["In progress"]
           ]
@@ -55,8 +100,7 @@
             "Computer Science Bachelor",
             "2021 - 2024",
             [
-              "Average mark: 4.93 (equivalent to american 3.94 GPA)",
-              "Bachelor's diploma: 5.0 (equivalent to american 4.0 GPA)",
+              "Average mark: 4.93, Bachelor's diploma: 5.0",
               "Rector's scholarship in 2022 - 2024",
               "Year representative for all studies"
             ]
@@ -68,11 +112,26 @@
       "title": "Technical skills",
       "elements": [
         {
+          "title": "Cloud Certification",
+          "horizontal_elements": ["AWS Certified Cloud Practitioner"]
+        },
+        {
+          "title": "Machine Learning & Data Science",
+          "horizontal_elements": [
+            "MLFlow",
+            "Airflow",
+            "Spark",
+            "Pandas",
+            "Numpy",
+            "Scikit-learn"
+          ]
+        },
+        {
           "title": "Programming languages",
           "horizontal_elements": [
             "Python",
-            "Java",
             "SQL",
+            "Java",
             "Javascript",
             "C++",
             "C",
@@ -80,12 +139,24 @@
           ]
         },
         {
-          "title": "Frameworks",
+          "title": "Development Frameworks & Libraries",
           "horizontal_elements": ["Flask", "Pytest", "Celery", "Vue.js"]
         },
         {
-          "title": "Tools",
-          "horizontal_elements": ["Linux", "Git", "Docker", "Vim", "Vs Code"]
+          "title": "Databases",
+          "horizontal_elements": ["PostgreSQL", "MySQL", "Redis"]
+        },
+        {
+          "title": "Development Tools",
+          "horizontal_elements": [
+            "Linux",
+            "Unix",
+            "Git",
+            "Docker",
+            "Jenkins",
+            "Vim",
+            "VS Code"
+          ]
         }
       ]
     },
@@ -93,25 +164,16 @@
       "title": "Interpersonal skills",
       "elements": [
         {
-          "title": "Communication"
+          "title": "Problem solving"
+        },
+        {
+          "title": "Critical thinking"
         },
         {
           "title": "Teamwork"
         },
         {
-          "title": "Problem solving"
-        },
-        {
-          "title": "Creativity"
-        },
-        {
-          "title": "Time management"
-        },
-        {
-          "title": "Adaptability"
-        },
-        {
-          "title": "Critical thinking"
+          "title": "Communication"
         }
       ]
     },
@@ -120,7 +182,7 @@
       "elements": [
         {
           "title": "English",
-          "vertical_elements": ["Fluent"]
+          "vertical_elements": ["C1"]
         },
         {
           "title": "Polish",
@@ -132,19 +194,16 @@
       "title": "Interests",
       "elements": [
         {
-          "title": "Programming"
+          "title": "New technologies"
         },
         {
-          "title": "New technologies"
+          "title": "Specialty coffee"
         },
         {
           "title": "Music"
         },
         {
-          "title": "Snowboarding"
-        },
-        {
-          "title": "Collecting glassware"
+          "title": "Crocheting"
         }
       ]
     }
@@ -154,36 +213,81 @@
       "title": "Doświadczenie zawodowe",
       "elements": [
         {
-          "title": "Junior Python Developer",
-          "vertical_elements": [
-            "eOS Poland",
-            "08.2023 - 11.2024",
-            [
-              "Współpraca w zespole rozwoju oprogramowania przy tworzeniu różnych projektów in-house",
-              "Tworzenie i wykonywanie testów jednostkowych",
-              "Proces Code Review",
-              "Wsparcie nowych pracowników"
-            ]
-          ],
-          "horizontal_elements": [
-            "Python",
-            "Flask",
-            "Celery",
-            "Pytest",
-            "Vue.js",
-            "Javascript",
-            "SQL",
-            "Linux",
-            "Git",
-            "Docker"
+          "company": "Grid Dynamics",
+          "location": "Warszawa, Polska",
+          "elements": [
+            {
+              "title": "Junior Machine Learning Engineer",
+              "vertical_elements": [
+                "06.2026 - obecnie",
+                [
+                  "Rozwój rozwiązań opartych na generatywnej sztucznej inteligencji dla sektora inwestycyjnego",
+                  "Optymalizacja zapytań (Prompt engineering)",
+                  "Implementacja oraz wykonywanie testów jednostkowych zapewniających stabilność rozwiązań"
+                ]
+              ],
+              "horizontal_elements": [
+                "Python",
+                "Flask",
+                "Pytest",
+                "Redis",
+                "Git",
+                "Agentic AI",
+                "Prompt Engineering"
+              ]
+            },
+            {
+              "title": "Machine Learning Engineer Intern",
+              "vertical_elements": [
+                "12.2025 - 05.2026",
+                [
+                  "Realizacja kompleksowych programów szkoleniowych w zakresie Data Engineering i Machine Learning",
+                  "Praktyczne wykorzystanie nowoczesnych narzędzi do analizy i przetwarzania danych",
+                  "Uzyskanie certyfikacji AWS w ramach wprowadzania technologii chmurowych"
+                ]
+              ],
+              "horizontal_elements": [
+                "Python",
+                "Git",
+                "SQL",
+                "Docker",
+                "Airflow",
+                "Pandas",
+                "Spark",
+                "Jenkins",
+                "MLflow",
+                "AWS"
+              ]
+            }
           ]
         },
         {
-          "title": "Stażysta",
-          "vertical_elements": [
-            "Lubelskie Centrum Innowacji i Technologii",
-            "06.2023",
-            ["Wsparcie zespołów w codziennych zadaniach", "Obsługa pracowników"]
+          "company": "eOS Poland",
+          "location": "Lublin, Polska",
+          "elements": [
+            {
+              "title": "Junior Python Developer / Python Developer Intern",
+              "vertical_elements": [
+                "08.2023 - 11.2024",
+                [
+                  "Tworzenie i utrzymanie wewnętrznych projektów w pełnym cyklu życia aplikacji webowych",
+                  "Zapewnienie niezawodności kodu poprzez implementację testów jednostkowych",
+                  "Mentoring techniczny i wsparcie w procesach wdrażania nowych pracowników"
+                ]
+              ],
+              "horizontal_elements": [
+                "Python",
+                "Flask",
+                "Celery",
+                "Pytest",
+                "Vue.js",
+                "Javascript",
+                "SQL",
+                "Linux",
+                "Git",
+                "Docker"
+              ]
+            }
           ]
         }
       ]
@@ -194,7 +298,7 @@
         {
           "title": "Politechnika Warszawska",
           "vertical_elements": [
-            "Magister Informatyki",
+            "Magister Inżynier Informatyki",
             "2025 - obecnie",
             ["W trakcie"]
           ]
@@ -205,10 +309,9 @@
             "Licencjat Informatyki",
             "2021 - 2024",
             [
-              "Średnia ocen: 4.93",
-              "Egzamin dyplomowy: 5.0",
+              "Średnia ocen: 4.93, Egzamin dyplomowy: 5.0",
               "Stypendium Rektora w latach 2022 - 2024",
-              "Reprezentant roku przez całe studia"
+              "Reprezentant roku (starosta) przez całe studia"
             ]
           ]
         }
@@ -218,11 +321,26 @@
       "title": "Umiejętności techniczne",
       "elements": [
         {
+          "title": "Certyfikaty chmurowe",
+          "horizontal_elements": ["AWS Certified Cloud Practitioner"]
+        },
+        {
+          "title": "Machine Learning i Data Science",
+          "horizontal_elements": [
+            "MLFlow",
+            "Airflow",
+            "Spark",
+            "Pandas",
+            "Numpy",
+            "Scikit-learn"
+          ]
+        },
+        {
           "title": "Języki programowania",
           "horizontal_elements": [
             "Python",
-            "Java",
             "SQL",
+            "Java",
             "Javascript",
             "C++",
             "C",
@@ -230,12 +348,24 @@
           ]
         },
         {
-          "title": "Frameworki",
+          "title": "Frameworki i biblioteki",
           "horizontal_elements": ["Flask", "Pytest", "Celery", "Vue.js"]
         },
         {
+          "title": "Bazy danych",
+          "horizontal_elements": ["PostgreSQL", "MySQL", "Redis"]
+        },
+        {
           "title": "Narzędzia",
-          "horizontal_elements": ["Linux", "Git", "Docker", "Vim", "Vs Code"]
+          "horizontal_elements": [
+            "Linux",
+            "Unix",
+            "Git",
+            "Docker",
+            "Jenkins",
+            "Vim",
+            "VS Code"
+          ]
         }
       ]
     },
@@ -243,25 +373,16 @@
       "title": "Umiejętności interpersonalne",
       "elements": [
         {
-          "title": "Komunikacja"
+          "title": "Rozwiązywanie problemów"
+        },
+        {
+          "title": "Myślenie krytyczne"
         },
         {
           "title": "Praca zespołowa"
         },
         {
-          "title": "Rozwiązywanie problemów"
-        },
-        {
-          "title": "Kreatywność"
-        },
-        {
-          "title": "Zarządzanie czasem"
-        },
-        {
-          "title": "Adaptacyjność"
-        },
-        {
-          "title": "Myślenie krytyczne"
+          "title": "Komunikacja"
         }
       ]
     },
@@ -270,7 +391,7 @@
       "elements": [
         {
           "title": "Angielski",
-          "vertical_elements": ["Biegły"]
+          "vertical_elements": ["C1"]
         },
         {
           "title": "Polski",
@@ -282,19 +403,16 @@
       "title": "Zainteresowania",
       "elements": [
         {
-          "title": "Programowanie"
+          "title": "Nowe technologie"
         },
         {
-          "title": "Nowe technologie"
+          "title": "Kawa specialty"
         },
         {
           "title": "Muzyka"
         },
         {
-          "title": "Snowboard"
-        },
-        {
-          "title": "Kolekcjonowanie szkła"
+          "title": "Szydełkowanie"
         }
       ]
     }
@@ -307,11 +425,11 @@
     "about": {
       "en": {
         "title": "About me",
-        "text": "I am an ambitious software developer with a strong focus on development and achieving set goals. I value the opportunity to continuously expand my knowledge and take on new challenges, while offering high technical and interpersonal skills."
+        "text": "Software Developer and Machine Learning Engineer combining a Master's degree with hands-on commercial experience. Focused on developing Generative AI solutions, prompt engineering, and building robust backend systems in Python. I highly value clean, well tested code and efficient data processing architectures."
       },
       "pl": {
         "title": "O mnie",
-        "text": "Jestem ambitnym programistą z silnym nastawieniem na rozwój i osiąganie wyznaczonych celów. Cenię sobie możliwość ciągłego poszerzania wiedzy i podejmowania nowych wyzwań, zarazem oferując wysokie kompetencje techniczne oraz interpersonalne."
+        "text": "Programista i inżynier Machine Learning, łączący studia magisterskie z komercyjnym doświadczeniem. Skupiam się na rozwoju rozwiązań opartych na generatywnej sztucznej inteligencji, inżynierii promptów oraz budowaniu wydajnych systemów backendowych w Pythonie. W pracy stawiam na czysty, dobrze przetestowany kod i optymalizację procesów."
       }
     },
     "contact": {
@@ -327,7 +445,7 @@
             "value": "+48 796 386 994"
           },
           {
-            "title": "Website",
+            "title": "Portfolio",
             "value": "rvsmic.github.io"
           },
           {
@@ -352,7 +470,7 @@
             "value": "+48 796 386 994"
           },
           {
-            "title": "Strona internetowa",
+            "title": "Portfolio",
             "value": "rvsmic.github.io"
           },
           {

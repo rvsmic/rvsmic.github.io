@@ -1,7 +1,10 @@
 <template>
   <div class="home">
-    <h1>michał rusinek</h1>
-    <h2>{{ t.subtitle[lang] }}</h2>
+    <h1>Michał Rusinek</h1>
+    <h2>
+      <span>{{ displayedText }}</span
+      ><span class="cursor">|</span>
+    </h2>
   </div>
 </template>
 
@@ -18,7 +21,83 @@
     data() {
       return {
         t: translations.home,
+        displayedText: "",
+        currentSubtitleIndex: 0,
+        isDeleting: false,
+        typewriterTimeout: null,
+        typingSpeed: 100,
+        deletingSpeed: 50,
+        pauseEnd: 2000,
+        pauseStart: 500,
       };
+    },
+    watch: {
+      lang() {
+        clearTimeout(this.typewriterTimeout);
+        this.currentSubtitleIndex = 0;
+        this.displayedText = "";
+        this.isDeleting = false;
+        this.typewriterEffect();
+      },
+    },
+    mounted() {
+      this.typewriterEffect();
+    },
+    beforeUnmount() {
+      clearTimeout(this.typewriterTimeout);
+    },
+    methods: {
+      typewriterEffect() {
+        const currentSubtitles = this.t.subtitle[this.lang];
+        const fullText = currentSubtitles[this.currentSubtitleIndex];
+
+        if (this.isDeleting) {
+          this.displayedText = fullText.substring(
+            0,
+            this.displayedText.length - 1,
+          );
+        } else {
+          this.displayedText = fullText.substring(
+            0,
+            this.displayedText.length + 1,
+          );
+        }
+
+        let typeSpeed = this.isDeleting ? this.deletingSpeed : this.typingSpeed;
+
+        if (!this.isDeleting && this.displayedText === fullText) {
+          typeSpeed = this.pauseEnd;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.displayedText === "") {
+          this.isDeleting = false;
+          this.currentSubtitleIndex =
+            (this.currentSubtitleIndex + 1) % currentSubtitles.length;
+          typeSpeed = this.pauseStart;
+        } else if (!this.isDeleting) {
+          typeSpeed = this.typingSpeed - Math.random() * 50;
+        }
+
+        this.typewriterTimeout = setTimeout(this.typewriterEffect, typeSpeed);
+      },
     },
   };
 </script>
+
+<style scoped>
+  .cursor {
+    display: inline-block;
+    font-weight: 300;
+    animation: blink 1s step-end infinite;
+    margin-left: 1px;
+  }
+
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+</style>

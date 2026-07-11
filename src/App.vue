@@ -1,5 +1,16 @@
 <template>
-  <RouterView :lang="lang" :key="lang" @toggle-cover="toggleCover" />
+  <div class="relative w-full min-h-screen overflow-x-hidden">
+    <RouterView v-slot="{ Component, route }">
+      <transition name="slide-up">
+        <div
+          :key="route.path"
+          class="w-full min-h-screen bg-light-background dark:bg-dark-background pb-[env(safe-area-inset-bottom)]"
+        >
+          <component :is="Component" :lang="lang" />
+        </div>
+      </transition>
+    </RouterView>
+  </div>
   <NavBar
     :lang="lang"
     :elements="navBarElements"
@@ -12,7 +23,10 @@
     @toggle-lang="toggleLang"
     @toggle-cover="toggleCover"
   />
-  <div class="transition-cover" :style="transitionCoverStyle">'-'</div>
+  <div
+    class="blob-overlay bg-light-background dark:bg-dark-background"
+    :class="{ 'blob-active': isBlob && coverShown }"
+  ></div>
 </template>
 
 <script>
@@ -53,27 +67,22 @@
       lang() {
         return this.$store.state.lang;
       },
-      transitionCoverStyle() {
-        return {
-          transform: this.coverShown ? "translateY(0)" : "translateY(100%)",
-          transition: "transform 0.4s ease-in-out",
-          "z-index": this.coverTop ? 40 : 20,
-        };
-      },
     },
     data() {
       return {
         coverShown: false,
         coverTop: false,
+        isBlob: false,
       };
     },
     methods: {
       toggleLang() {
         this.$store.commit("changeLang");
       },
-      toggleCover(coverShown, top = false) {
+      toggleCover(coverShown, top = false, isBlob = false) {
         this.coverShown = coverShown;
         this.coverTop = top;
+        this.isBlob = isBlob;
       },
     },
   };

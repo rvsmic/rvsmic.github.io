@@ -2,7 +2,6 @@
   <div class="title">
     {{ title }}
   </div>
-  <div class="title-bg" />
 </template>
 
 <script>

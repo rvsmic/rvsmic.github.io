@@ -23,8 +23,16 @@
   },
   "home": {
     "subtitle": {
-      "en": "Software developer",
-      "pl": "Programista"
+      "en": [
+        "Machine Learning Engineer",
+        "Fullstack Developer",
+        "Software Engineer"
+      ],
+      "pl": [
+        "Machine Learning Engineer",
+        "Fullstack Developer",
+        "Software Engineer"
+      ]
     }
   },
   "about": {
@@ -37,31 +45,31 @@
       "pl": "Zarys"
     },
     "overview_text": {
-      "en": "I am an ambitious programmer with a strong focus on development and achieving set goals. I value the opportunity to continuously expand my knowledge and take on new challenges, while offering high technical and interpersonal skills.",
-      "pl": "Jestem ambitnym programistą z silnym nastawieniem na rozwój i osiąganie wyznaczonych celów. Cenię sobie możliwość ciągłego poszerzania wiedzy i podejmowania nowych wyzwań, zarazem oferując wysokie kompetencje techniczne oraz interpersonalne."
+      "en": "I am an ambitious software developer with a strong focus on development and achieving set goals. As a fast learner, I am passionate about exploring new technologies and solving complex problems. I value the opportunity to continuously expand my knowledge and take on new challenges, while offering high technical and interpersonal skills.",
+      "pl": "Jestem ambitnym programistą z silnym nastawieniem na rozwój i osiąganie wyznaczonych celów. Jestem szybkim uczniem, a moją pasją jest odkrywanie nowych technologii oraz rozwiązywanie złożonych problemów. Cenię sobie możliwość ciągłego poszerzania wiedzy i podejmowania nowych wyzwań, oferując wysokie kompetencje techniczne i interpersonalne."
     },
     "experience": {
       "en": "Experience",
       "pl": "Doświadczenie"
     },
     "experience_text": {
-      "en": "I have been working as a software developer for over a year now. I have experience in back-end development, however I have no problem with working on front-end projects. I have professionally worked with a variety of technologies, including python with flask and celery frameworks, javascipt in vue.js framework as well as sql. During my studies I also got fluent with c++, c, and java. in my free time I learned swift which I used to create my apps mentioned on projects page.",
-      "pl": "Od ponad roku pracuję jako programista. Mam doświadczenie w back-endzie, ale nie mam problemu z pracą nad front-endowymi projektami. Profesjonalnie pracowałem z różnymi technologiami, w tym pythonem z frameworkami flask i celery, javascriptem w frameworku vue.js, a także sql. W trakcie studiów opanowałem również c++, c i java. W wolnym czasie nauczyłem się swifta, którego użyłem do stworzenia aplikacji wymienionych na stronie projektów."
+      "en": "I have been working as a Machine Learing Engineer since December 2025. I started as an Intern, where I learned a lot about machine learning, its applications and MLOps, and currently I work as a Junior specialist and apply the knowledge I aquired in my day-to-day work. Prior to that I had worked as a Python/Fullstack Developer for more than a year from which I got experience both in backend and frontend development. More details about those professional roles are listed on the <b>'CV'</b> page. Apart from professional experience, I have always been developing my programming skills either with university projects or with personal passion projects (for which the usual thought process is '<i>This annoys me... There is no good solution for solving this problem... I'll make it perfect for myself!</i>'). I also enjoy developing mobile apps - I taught myself Swift (before the ChatGPT times...) and created a few apps. My projects are better described on the <b>'Projects'</b> page.",
+      "pl": "Od Grudnia 2025 pracuję jako Machine Learning Engineer. Zaczynałem jako stażysta, gdzie dużo nauczyłem się o uczeniu maszynowym, jego zastosowaniach i MLOpsie, a obecnie pracuję jako młodszy specjalista i wdrażam zdobytą wiedzę w codziennej pracy. Wcześniej pracowałem jako programista Python/Fullstack przez ponad rok, zdobywając doświadczenie zarówno w programowaniu backendowym, jak i frontendowym. Więcej szczegółów na temat tych ról zawodowych znajduje się na stronie <b>'CV'</b>. Oprócz doświadczenia zawodowego, zawsze rozwijałem swoje umiejętności programistyczne, realizując projekty uniwersyteckie lub osobiste projekty z pasji (dla których typowy tok myślenia brzmi: '<i>To mnie irytuje... Nie ma dobrego rozwiązania tego problemu... Stworzę je perfekcyjne dla siebie!</i>'). Lubię również tworzyć aplikacje mobilne - nauczyłem się sam Swift (jeszcze przed erą ChatGPT...) i stworzyłem kilka aplikacji. Moje projekty są lepiej opisane na stronie <b>'Projekty'</b>."
     },
     "education": {
       "en": "Education",
       "pl": "Edukacja"
     },
     "education_text": {
-      "en": "I am currently studying computer science at the Warsaw University of Technology, pursuing my master's degree studies. I have completed a number of courses in programming, algorithms, and data structures. During my undergraduate studies I was the year representative for all three years as well as I was the top student in my year for which I received the rector's scholarship.",
-      "pl": "Obecnie studiuję informatykę na Politechnice Warszawskiej, realizując studia magisterskie. Ukończyłem szereg kursów z programowania, algorytmów i struktur danych. W trakcie studiów licencjackich byłem przedstawicielem roku dla wszystkich trzech lat, a także byłem najlepszym studentem w swoim roku, za co otrzymałem stypendium rektora."
+      "en": "I am currently studying computer science at the Warsaw University of Technology, pursuing my master's degree studies. I have completed a number of courses in programming, algorithms, artificial intelligence and data structures. During my undergraduate studies, for all three years I was the year representative as well as I was the top student of my year, for which I received the rector's scholarship.",
+      "pl": "Obecnie studiuję informatykę na Politechnice Warszawskiej, realizując studia magisterskie. Ukończyłem szereg kursów z programowania, algorytmów, sztucznej inteligencji i struktur danych. W trakcie studiów licencjackich przez wszystkie trzy lata byłem przedstawicielem roku (starostą) oraz najlepszym studentem w swoim roczniku, za co otrzymywałem stypendium rektora."
     },
     "languages": {
       "en": "Languages",
       "pl": "Języki"
     },
     "languages_text": {
-      "en": "I'm native in Polish and since my childhood i have been learning English so I can speak it fluently. Recently i have started learning Italian.",
+      "en": "I'm native in Polish and since my childhood I have been learning English so I can speak it fluently. Recently I have started learning Italian.",
       "pl": "Mówię biegle po polsku, a od dzieciństwa uczę się angielskiego, więc mówię w nim płynnie. Ostatnio zacząłem uczyć się włoskiego."
     },
     "interests": {
@@ -69,8 +77,8 @@
       "pl": "Zainteresowania"
     },
     "interests_text": {
-      "en": "In my free time I like to develop my personal projects, play video games, and learn new things. My most recent project revolves around setting up my own server for web hosting, data storage and media streaming. I am also interested in new technologies and gadgets. My latest passion is snowboarding, which I have been practicing since this season. My most extravagant hobby is collecting glassware, especially from the Polish People's Republic era.",
-      "pl": "W wolnym czasie lubię rozwijać swoje projekty, grać w gry komputerowe i uczyć się nowych rzeczy. Mój najnowszy projekt dotyczy konfiguracji własnego serwera do hostingu stron internetowych, przechowywania danych i strumieniowania multimediów. Interesuję się również nowymi technologiami i gadżetami. Moją najnowszą pasją jest snowboard, na którym jazdy uczę się od tego sezonu. Moim najbardziej ekstrawaganckim hobby jest kolekcjonowanie szkła, zwłaszcza z okresu Polski Rzeczypospolitej Ludowej."
+      "en": "In my free time I like to develop my personal projects, play video games, and learn new things. My latest (yet to be finished) project revolves around setting up my own server for web hosting, data storage and media streaming. I am also interested in new technologies and gadgets. Lately, I've been getting into the world of specialty coffee, building up my brewing gear and experimenting with different methods. My most recent hobby is crocheting, which turned out to be a great exercise in patience and attention to detail :).",
+      "pl": "W wolnym czasie lubię pracować nad własnymi projektami, grać w gry komputerowe i uczyć się nowych rzeczy. Mój najnowszy (i jeszcze nie skończony) projekt polega na konfiguracji mojego własnego serwera do hostingu stron internetowych, przechowywania danych i strumieniowania multimediów. Interesują mnie także nowe technologie i gadżety. Ostatnio wkręciłem się również w świat kawy specialty, rozbudowując swój kawowy arsenał i eksperymentując z różnymi metodami parzenia. Moim najnowszym hobby jest szydełkowanie, które okazało się świetnym treningiem cierpliwości i dbałości o detale :)"
     }
   },
   "cv": {
@@ -89,8 +97,16 @@
   },
   "projects": {
     "pagetitle": {
-      "en": "My projects (chronologically)",
-      "pl": "Moje projekty (chronologicznie)"
+      "en": "My projects",
+      "pl": "Moje projekty"
+    },
+    "tag_uni": {
+      "en": "University",
+      "pl": "Uniwersytecki"
+    },
+    "tag_pers": {
+      "en": "Personal",
+      "pl": "Osobisty"
     },
     "description": {
       "en": "Description",
@@ -105,33 +121,71 @@
       "pl": "Linki"
     },
     "github_repo": {
-      "en": "Github repository",
-      "pl": "Repozytorium na Githubie"
+      "en": "GitHub repository",
+      "pl": "Repozytorium na GitHubie"
     },
     "front_end": {
-      "en": "Front-end:",
-      "pl": "Front-end:"
+      "en": "Frontend:",
+      "pl": "Frontend:"
     },
     "back_end": {
-      "en": "Back-end:",
-      "pl": "Back-end:"
+      "en": "Backend:",
+      "pl": "Backend:"
     },
     "source_code": {
       "en": "Source code:",
       "pl": "Kod źródłowy:"
     },
+    "solo_project": {
+      "en": "Solo project",
+      "pl": "Realizowany samodzielnie"
+    },
+    "group_project": {
+      "en": "Group project - team size: ",
+      "pl": "Projekt grupowy - rozmiar zespołu: "
+    },
+    "uma": {
+      "en": "Random forest with tournament selection",
+      "pl": "Las losowy z selekcją turniejową"
+    },
+    "uma_description": {
+      "en": "Group project for Machine Learning class, in which we implemented a random forest with tournament selection. The goal was to compare the results of our implementation with the results of the standard random forest algorithm. We performed a number of experiments to compare the accuracy of our implementation with the results of the standard random forest algorithm. In our project we implemented: data subsampling (bootstrap), feature subsampling, decision tree creation and tournament selection.",
+      "pl": "Grupowy projekt z zajęć z uczenia maszynowego, w którym zaimplementowaliśmy las losowy z selekcją turniejową. W projekcie celem było porównanie wyników naszej implementacji z wynikami standardowego algorytmu lasu losowego. Wykonaliśmy szereg eksperymentów, aby porównać dokładność naszej implementacji z wynikami standardowego algorytmu lasu losowego. W ramach projektu zaimplementowaliśmy: podpróbkowanie danych (bootstrap), losowanie podzbioru cech (feature subsampling), tworzenie drzew decyzyjnych oraz selekcję turniejową."
+    },
+    "uma_technologies": ["Python", "Numpy"],
+    "amhe": {
+      "en": "Traffic flow optimization",
+      "pl": "Optymalizacja alokacji ruchu"
+    },
+    "amhe_description": {
+      "en": "Group project for my Metaheuristic Algorithms class. The goal was to compare the performance and results of two different metaheuristic algorithms: genetic algorithm and simulated annealing. We implemented both algorithms from scratch, then conducted experiments on 3 sample telecommunication networks, analyzing and comparing their efficiency in traffic flow optimization.",
+      "pl": "Grupowy projekt z przedmiotu Algorytmy Metaheurystyczne. Celem było porównanie wydajności i wyników dwóch różnych algorytmów metaheurystycznych: algorytmu genetycznego i symulowanego wyżarzania. Zaimplementowaliśmy oba algorytmy od podstaw, a następnie wykonaliśmy eksperymenty na 3 testowych sieciach teleinformatycznych. Na koniec analizowaliśmy i porównaliśmy ich efektywność w optymalizacji alokacji ruchu."
+    },
+    "amhe_technologies": ["Python", "Pandas", "Numpy", "Matplotlib"],
+    "tass": {
+      "en": "Social network analysis",
+      "pl": "Analiza sieci społecznych"
+    },
+    "tass_description": {
+      "en": "Group project for my Social Network Analysis class. The goal was to analyze the transformation of critical European infrastructure caused by the Russian invasion of Ukraine (2022). Using social network analysis (SNA), we analyzed the transformation from a Russia-dependent model to a diversified model (REPowerEU).",
+      "pl": "Grupowy projekt z przedmiotu Techniki Analizy Sieci Społecznych. Celem było zbadanie transformacji krytycznej infrastruktury energetycznej Europy spowodowanej rosyjską inwazją na Ukrainę (2022). Wykorzystując analizę sieci społecznych (SNA), zbadaliśmy transformację z modelu zależnego od Rosji w kierunku zdywersyfikowanego modelu (REPowerEU)."
+    },
+    "tass_technologies": [
+      "Python",
+      "NetworkX",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn"
+    ],
     "portfolio": {
       "en": "Portfolio website",
       "pl": "Strona portfolio"
     },
     "portfolio_description": {
-      "en": "My portfolio is a web application that showcases my projects, skills and experience. It is currently hosted on github pages - you are looking at it right now :).",
-      "pl": "Moje portfolio to aplikacja internetowa, która prezentuje moje projekty, umiejętności i doświadczenie. Obecnie jest hostowane na github pages - właśnie na nie patrzysz :)."
+      "en": "My portfolio is a web application that showcases my projects, skills and experience. It is currently hosted on GitHub pages - you are looking at it right now :).",
+      "pl": "Moje portfolio to aplikacja internetowa, która prezentuje moje projekty, umiejętności i doświadczenie. Obecnie jest hostowane na GitHub pages - właśnie na nie patrzysz :)."
     },
-    "portfolio_technologies": {
-      "en": "Portfolio is fully written in vue.js with tailwind.",
-      "pl": "Portfolio jest w pełni napisane w vue.js z tailwind."
-    },
+    "portfolio_technologies": ["Vue.js", "Tailwind", "GitHub Pages"],
     "bachelors": {
       "en": "Bachelor's thesis",
       "pl": "Praca licencjacka"
@@ -140,10 +194,7 @@
       "en": "My bachelor's thesis was about developing a portable implementation of a digital elevation model (DEM) shading algorithm. The goal was to create a versatile and efficient program for high-quality terrain shading deployable across various platforms and compare its efficiency to other implementations.",
       "pl": "Moja praca licencjacka dotyczyła opracowania przenośnej implementacji algorytmu cieniowania modelu cyfrowego terenu (DEM). Celem było stworzenie wszechstronnego i wydajnego programu do cieniowania terenu wysokiej jakości, który można zastosować na różnych platformach, a także porównanie jego wydajności z innymi implementacjami."
     },
-    "bachelors_technologies": {
-      "en": "The algorithm was implemented in c++, sycl and cuda.",
-      "pl": "Algorytm został zaimplementowany w c++, sycl i cuda."
-    },
+    "bachelors_technologies": ["C++", "SYCL", "CUDA"],
     "medsys": {
       "en": "Medsys",
       "pl": "Medsys"
@@ -152,10 +203,13 @@
       "en": "Medsys is a web application created during group project class at my undergraduate studies that allows doctors and medical staff of a clinic to register and overview patients and their visits.",
       "pl": "Medsys to aplikacja internetowa stworzona podczas zajęć projektowych na studiach licencjackich, która umożliwia lekarzom i personelowi medycznemu kliniki rejestrację i przegląd pacjentów oraz ich wizyt."
     },
-    "medsys_technologies": {
-      "en": "Medsys is a full-stack application. The front-end is built using vue.js framework, while the back-end is built using java with spring framework. The application uses a postgresql database to store user and medication data.",
-      "pl": "Medsys to aplikacja full-stack. Front-end jest zbudowany przy użyciu frameworka vue.js, a back-end przy użyciu javy z frameworkiem spring. Aplikacja korzysta z bazy danych postgresql do przechowywania danych użytkowników i leków."
-    },
+    "medsys_technologies": [
+      "Vue.js",
+      "Tailwind",
+      "Java",
+      "Spring",
+      "PostgreSQL"
+    ],
     "sudoku": {
       "en": "Sudoku solver",
       "pl": "Sudoku solver"
@@ -164,22 +218,16 @@
       "en": "Sudoku solver is an app that allows users to input a sudoku board and solve it with a backtracking algorithm.",
       "pl": "Sudoku solver to aplikacja, która pozwala użytkownikom wprowadzić planszę sudoku i rozwiązać ją za pomocą algorytmu backtracking."
     },
-    "sudoku_technologies": {
-      "en": "Sudoku solver is fully written in python.",
-      "pl": "Sudoku solver jest w pełni napisany w pythonie."
-    },
+    "sudoku_technologies": ["Python"],
     "software_engineering": {
-      "en": "Software engineering project",
-      "pl": "Projekt z inżynierii oprogramowania"
+      "en": "Software engineering",
+      "pl": "Inżynieria oprogramowania"
     },
     "software_engineering_description": {
-      "en": "Software engineering project was a group project at my undergraduate studies. The goal was to create an application that would simulate a university platform (like moodle). The whole project was documented using uml.",
-      "pl": "Projekt z inżynierii oprogramowania był projektem grupowym na studiach licencjackich. Celem było stworzenie aplikacji, która symulowałaby platformę uniwersytecką (jak moodle). Cały projekt został udokumentowany przy użyciu uml."
+      "en": "Software engineering project was a group project at my undergraduate studies. The ultimate goal was to create an application that would simulate a university platform (like Moodle), but the most important part of the project was the documentation (among others using UML) and the implementation of proper software engineering principles.",
+      "pl": "Projekt z inżynierii oprogramowania był projektem grupowym na studiach licencjackich. Celem było stworzenie aplikacji, która symulowałaby platformę uniwersytecką (jak Moodle), ale najważniejsza w tym projekcie była jego dokumentacja (między innymi przy użyciu UML) i implementacja dobrych praktyk inżynierii oprogramowania."
     },
-    "software_engineering_technologies": {
-      "en": "Software engineering project was fully written in c++.",
-      "pl": "Projekt z inżynierii oprogramowania był w pełni napisany w c++."
-    },
+    "software_engineering_technologies": ["C++", "UML"],
     "divcost": {
       "en": "DivCost",
       "pl": "DivCost"
@@ -188,22 +236,16 @@
       "en": "DivCost is a mobile app that allows users to calculate the money balance of each member of a group. User enters all the expenses and attributes them to according people. When all data is entered user can preview the balances of all people and can generate a suggested, optimised and minimised return transactions.",
       "pl": "DivCost to aplikacja mobilna, która pozwala użytkownikom obliczyć bilans pieniężny każdego członka grupy. Użytkownik wprowadza wszystkie wydatki i przypisuje je odpowiednim osobom. Po wprowadzeniu wszystkich danych użytkownik może zobaczyć bilanse wszystkich osób i wygenerować sugerowane, zoptymalizowane i ze zminimalizowanymi transakcjami zwrotnymi."
     },
-    "divcost_technologies": {
-      "en": "DivCost is fully written in swift.",
-      "pl": "DivCost jest w pełni napisany w swift."
-    },
+    "divcost_technologies": ["Swift", "SwiftUI"],
     "ticker": {
       "en": "Ticker",
       "pl": "Ticker"
     },
     "ticker_description": {
-      "en": "Ticker is a mobile app that allows users to write down lists of products to buy. Its main feature is the individual lists for shops (for example a list for lidl and a list for auchan).",
-      "pl": "Ticker to aplikacja mobilna, która pozwala użytkownikom zapisać listy produktów do kupienia. Jej główną funkcją są indywidualne listy dla sklepów (na przykład lista dla lidla i lista dla auchan)."
+      "en": "Ticker is a mobile app that allows users to write down lists of products to buy. Its main feature is the individual lists for shops (for example a list for Lidl and a list for Auchan).",
+      "pl": "Ticker to aplikacja mobilna, która pozwala użytkownikom zapisać listy produktów do kupienia. Jej główną funkcją są indywidualne listy dla sklepów (na przykład lista dla Lidla i lista dla Auchan)."
     },
-    "ticker_technologies": {
-      "en": "Ticker is fully written in swift.",
-      "pl": "Ticker jest w pełni napisany w swift."
-    }
+    "ticker_technologies": ["Swift", "SwiftUI"]
   },
   "contact": {
     "pagetitle": {
@@ -223,16 +265,16 @@
       "pl": "LinkedIn"
     },
     "linkedin_description": {
-      "en": "You can find me on LinkedIn at",
-      "pl": "Możesz mnie znaleźć na LinkedIn pod adresem"
+      "en": "My profile on LinkedIn ~",
+      "pl": "Mój profil na LinkedInie ~"
     },
     "github": {
       "en": "GitHub",
       "pl": "GitHub"
     },
     "github_description": {
-      "en": "You can find me on GitHub at",
-      "pl": "Możesz mnie znaleźć na GitHub pod adresem"
+      "en": "My profile on GitHub ~",
+      "pl": "Mój profil na GitHubie ~"
     }
   }
 }
