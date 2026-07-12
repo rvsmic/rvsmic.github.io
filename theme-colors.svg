@@ -6,41 +6,41 @@
 
   <!-- Row 1 -->
   <g transform="translate(10, 10)">
-    <rect width="390" height="100" fill="#F5F0E0" />
-    <text x="195" y="50" fill="#394A34" class="text">Light background</text>
+    <rect width="390" height="100" fill="#FFFDF8" />
+    <text x="195" y="50" fill="#142900" class="text">Light background</text>
   </g>
   <g transform="translate(410, 10)">
-    <rect width="390" height="100" fill="#1A2417" />
-    <text x="195" y="50" fill="#EBE1C1" class="text">Dark background</text>
+    <rect width="390" height="100" fill="#070E00" />
+    <text x="195" y="50" fill="#E2E4DD" class="text">Dark background</text>
   </g>
 
   <!-- Row 2 -->
   <g transform="translate(10, 120)">
-    <rect width="390" height="100" fill="#394A34" />
-    <text x="195" y="50" fill="#F5F0E0" class="text">Light text</text>
+    <rect width="390" height="100" fill="#142900" />
+    <text x="195" y="50" fill="#FFFDF8" class="text">Light text</text>
   </g>
   <g transform="translate(410, 120)">
-    <rect width="390" height="100" fill="#EBE1C1" />
-    <text x="195" y="50" fill="#1A2417" class="text">Dark text</text>
+    <rect width="390" height="100" fill="#E2E4DD" />
+    <text x="195" y="50" fill="#070E00" class="text">Dark text</text>
   </g>
 
   <!-- Row 3 -->
   <g transform="translate(10, 230)">
-    <rect width="390" height="100" fill="#AE820A" />
-    <text x="195" y="50" fill="#F5F0E0" class="text">Light accent 1</text>
+    <rect width="390" height="100" fill="#AE9D0A" />
+    <text x="195" y="50" fill="#FFFDF8" class="text">Light accent 1</text>
   </g>
   <g transform="translate(410, 230)">
-    <rect width="390" height="100" fill="#E8AE0E" />
-    <text x="195" y="50" fill="#1A2417" class="text">Dark accent 1</text>
+    <rect width="390" height="100" fill="#C1AF0B" />
+    <text x="195" y="50" fill="#070E00" class="text">Dark accent 1</text>
   </g>
 
   <!-- Row 4 -->
   <g transform="translate(10, 340)">
     <rect width="390" height="100" fill="#636F20" />
-    <text x="195" y="50" fill="#F5F0E0" class="text">Light accent 2</text>
+    <text x="195" y="50" fill="#FFFDF8" class="text">Light accent 2</text>
   </g>
   <g transform="translate(410, 340)">
     <rect width="390" height="100" fill="#AFC530" />
-    <text x="195" y="50" fill="#1A2417" class="text">Dark accent 2</text>
+    <text x="195" y="50" fill="#070E00" class="text">Dark accent 2</text>
   </g>
 </svg>

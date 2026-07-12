@@ -48,11 +48,7 @@ router.options.scrollBehavior = (to, from, savedPosition) => {
       }, 600)
     })
   } else {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve({ top: 0, left: 0 })
-      }, 600)
-    })
+    return { top: 0, left: 0 }
   }
 }
 

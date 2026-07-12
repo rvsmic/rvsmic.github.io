@@ -1,30 +1,37 @@
 <template>
-  <div class="mobile-nav-blob" :class="{ 'mobile-nav-blob-active': menuShown }">
-    <div
-      class="mobile-nav-blob-star"
-      :class="{ 'opacity-0 pointer-events-none': menuShown }"
-      @click="toggleMenu"
-    >
-      *
-    </div>
+  <!-- Invisible Backdrop to capture outside clicks -->
+  <div 
+    v-if="menuShown" 
+    class="mobile-nav-backdrop" 
+    @click="toggleMenu"
+  ></div>
 
-    <div
-      class="mobile-nav-blob-content"
-      :class="{ 'opacity-100 pointer-events-auto': menuShown }"
-    >
-      <NavBarObj
-        class="mobile-nav-obj"
-        v-for="el in elements"
-        :text="t[el.name][lang]"
-        :link="el.link"
-        :key="el.name"
-        @click="toggleMenu"
-      />
-      <div class="mobile-nav-obj" @click="toggleLang">
-        {{ lang === "en" ? "PL" : "EN" }}
+  <div 
+    class="mobile-nav-wrapper"
+    :class="menuShown ? 'mobile-nav-wrapper-open cursor-default' : 'mobile-nav-wrapper-closed cursor-pointer'"
+    @click="!menuShown ? toggleMenu() : null"
+  >
+    <div class="mobile-nav-container">
+      <div
+        class="mobile-nav-menu"
+        :class="menuShown ? 'mobile-nav-menu-open' : 'mobile-nav-menu-closed'"
+      >
+        <NavBarObj
+          class="mobile-nav-item"
+          v-for="el in elements"
+          :text="t[el.name][lang]"
+          :link="el.link"
+          :key="el.name"
+          @click.stop="toggleMenu"
+        />
+        <div 
+          class="mobile-nav-item" 
+          @click.stop="toggleLang"
+        >
+          {{ lang === "en" ? "PL" : "EN" }}
+        </div>
       </div>
-
-      <div class="mobile-nav-close" @click="toggleMenu">x</div>
+      <div class="nav-ring mobile-nav-ring" :class="ringClass"></div>
     </div>
   </div>
 </template>
@@ -34,7 +41,7 @@
   import NavBarObj from "@/components/NavBarObj.vue";
 
   export default {
-    emits: ["toggle-lang", "toggle-cover"],
+    emits: ["toggle-lang", "toggle-cover", "trigger-bg-ring"],
     components: {
       NavBarObj,
     },
@@ -52,13 +59,28 @@
       return {
         t: translations.navbar,
         menuShown: false,
+        ringStep: 0,
       };
+    },
+    computed: {
+      ringClass() {
+        if (this.ringStep === 1) return 'ring-cover';
+        if (this.ringStep === 2) return 'ring-uncover';
+        return '';
+      },
     },
     methods: {
       toggleLang() {
-        this.$emit("toggle-cover", true, true, true);
-        setTimeout(() => this.$emit("toggle-lang"), 400);
-        setTimeout(() => this.$emit("toggle-cover", false, true, true), 400);
+        if (this.ringStep !== 0) return;
+        this.ringStep = 1;
+        this.$emit("trigger-bg-ring");
+        setTimeout(() => {
+          this.$emit("toggle-lang");
+          this.ringStep = 2;
+          setTimeout(() => {
+            this.ringStep = 0;
+          }, 400);
+        }, 400);
       },
       toggleMenu() {
         this.menuShown = !this.menuShown;

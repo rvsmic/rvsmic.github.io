@@ -32,7 +32,7 @@
                       v-for="(subSubEl, roleIdx) in role.vertical_elements"
                       :key="roleIdx"
                     >
-                      <ul v-if="Array.isArray(subSubEl)" class="blob-list">
+                      <ul v-if="Array.isArray(subSubEl)" class="bullet-list">
                         <li v-for="subSubSubEl in subSubEl" :key="subSubSubEl">
                           {{ subSubSubEl }}
                         </li>
@@ -46,7 +46,7 @@
                       <div
                         v-for="subSubEl in role.horizontal_elements"
                         :key="subSubEl"
-                        class="h-element"
+                        class="skill-pill"
                       >
                         {{ subSubEl }}
                       </div>
@@ -61,7 +61,7 @@
                   v-for="(subSubEl, subIdx) in subEl.vertical_elements"
                   :key="subIdx"
                 >
-                  <ul v-if="Array.isArray(subSubEl)" class="blob-list">
+                  <ul v-if="Array.isArray(subSubEl)" class="bullet-list">
                     <li v-for="subSubSubEl in subSubEl" :key="subSubSubEl">
                       {{ subSubSubEl }}
                     </li>
@@ -75,7 +75,7 @@
                   <div
                     v-for="subSubEl in subEl.horizontal_elements"
                     :key="subSubEl"
-                    class="h-element"
+                    class="skill-pill"
                   >
                     {{ subSubEl }}
                   </div>

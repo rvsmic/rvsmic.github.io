@@ -4,9 +4,9 @@
     <main>
       <div>
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="project-header">
             <h2>{{ t.uma[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_uni[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_uni[lang] }}</div>
           </div>
           <p>{{ t.group_project[lang] }} 2</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -15,7 +15,7 @@
           </p>
           <h3>{{ t.technologies[lang] }}</h3>
           <div class="horizontal-elements">
-            <div v-for="el in t.uma_technologies" :key="el" class="h-element">
+            <div v-for="el in t.uma_technologies" :key="el" class="skill-pill">
               {{ el }}
             </div>
           </div>
@@ -33,9 +33,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="project-header">
             <h2>{{ t.amhe[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_uni[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_uni[lang] }}</div>
           </div>
           <p>{{ t.group_project[lang] }} 2</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -44,7 +44,7 @@
           </p>
           <h3>{{ t.technologies[lang] }}</h3>
           <div class="horizontal-elements">
-            <div v-for="el in t.amhe_technologies" :key="el" class="h-element">
+            <div v-for="el in t.amhe_technologies" :key="el" class="skill-pill">
               {{ el }}
             </div>
           </div>
@@ -62,9 +62,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="project-header">
             <h2>{{ t.tass[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_uni[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_uni[lang] }}</div>
           </div>
           <p>{{ t.group_project[lang] }} 3</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -73,7 +73,7 @@
           </p>
           <h3>{{ t.technologies[lang] }}</h3>
           <div class="horizontal-elements">
-            <div v-for="el in t.tass_technologies" :key="el" class="h-element">
+            <div v-for="el in t.tass_technologies" :key="el" class="skill-pill">
               {{ el }}
             </div>
           </div>
@@ -89,9 +89,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="project-header">
             <h2>{{ t.portfolio[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_pers[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_pers[lang] }}</div>
           </div>
 
           <p>{{ t.solo_project[lang] }}</p>
@@ -104,7 +104,7 @@
             <div
               v-for="el in t.portfolio_technologies"
               :key="el"
-              class="h-element"
+              class="skill-pill"
             >
               {{ el }}
             </div>
@@ -121,9 +121,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between w-full gap-2 md:gap-4">
             <h2>{{ t.bachelors[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_uni[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_uni[lang] }}</div>
           </div>
           <p>{{ t.solo_project[lang] }}</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -135,7 +135,7 @@
             <div
               v-for="el in t.bachelors_technologies"
               :key="el"
-              class="h-element"
+              class="skill-pill"
             >
               {{ el }}
             </div>
@@ -152,9 +152,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between w-full gap-2 md:gap-4">
             <h2>{{ t.medsys[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_uni[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_uni[lang] }}</div>
           </div>
           <p>{{ t.group_project[lang] }} 4</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -166,7 +166,7 @@
             <div
               v-for="el in t.medsys_technologies"
               :key="el"
-              class="h-element"
+              class="skill-pill"
             >
               {{ el }}
             </div>
@@ -189,9 +189,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between w-full gap-2 md:gap-4">
             <h2>{{ t.sudoku[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_pers[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_pers[lang] }}</div>
           </div>
           <p>{{ t.solo_project[lang] }}</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -203,7 +203,7 @@
             <div
               v-for="el in t.sudoku_technologies"
               :key="el"
-              class="h-element"
+              class="skill-pill"
             >
               {{ el }}
             </div>
@@ -220,9 +220,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between w-full gap-2 md:gap-4">
             <h2>{{ t.software_engineering[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_uni[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_uni[lang] }}</div>
           </div>
           <p>{{ t.group_project[lang] }} 3</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -234,7 +234,7 @@
             <div
               v-for="el in t.software_engineering_technologies"
               :key="el"
-              class="h-element"
+              class="skill-pill"
             >
               {{ el }}
             </div>
@@ -251,9 +251,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between w-full gap-2 md:gap-4">
             <h2>{{ t.divcost[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_pers[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_pers[lang] }}</div>
           </div>
           <p>{{ t.solo_project[lang] }}</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -265,7 +265,7 @@
             <div
               v-for="el in t.divcost_technologies"
               :key="el"
-              class="h-element"
+              class="skill-pill"
             >
               {{ el }}
             </div>
@@ -282,9 +282,9 @@
         <div class="spacer" />
 
         <section>
-          <div class="flex items-center justify-between w-full">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between w-full gap-2 md:gap-4">
             <h2>{{ t.ticker[lang] }}</h2>
-            <div class="small-blob">{{ t.tag_pers[lang] }}</div>
+            <div class="tag-pill">{{ t.tag_pers[lang] }}</div>
           </div>
           <p>{{ t.solo_project[lang] }}</p>
           <h3>{{ t.description[lang] }}</h3>
@@ -296,7 +296,7 @@
             <div
               v-for="el in t.ticker_technologies"
               :key="el"
-              class="h-element"
+              class="skill-pill"
             >
               {{ el }}
             </div>
