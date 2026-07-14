@@ -167,13 +167,13 @@
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
     @apply flex items-center justify-between;
     @apply w-[90vw] md:w-[680px] px-4;
-    @apply opacity-0 pointer-events-none;
-    transition: opacity 100ms ease-in-out 0s;
+    @apply opacity-0 pointer-events-none invisible;
+    transition: opacity 100ms ease-in-out 0s, visibility 0s linear 100ms;
   }
 
   .nav-container:hover .nav-content {
-    @apply opacity-100 pointer-events-auto;
-    transition: opacity 300ms ease-in-out 200ms;
+    @apply opacity-100 pointer-events-auto visible;
+    transition: opacity 300ms ease-in-out 200ms, visibility 0s linear 200ms;
   }
 
   .mobile-nav-close {

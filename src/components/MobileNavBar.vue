@@ -31,6 +31,14 @@
           {{ lang === "en" ? "PL" : "EN" }}
         </div>
       </div>
+        <div 
+          class="absolute inset-0 flex items-center justify-center transition-opacity duration-200 pointer-events-none"
+          :class="menuShown ? 'opacity-0' : 'opacity-100'"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-light-background dark:text-dark-background" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </div>
       <div class="nav-ring mobile-nav-ring" :class="ringClass"></div>
     </div>
   </div>

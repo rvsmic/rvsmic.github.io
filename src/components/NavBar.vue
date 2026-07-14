@@ -1,10 +1,11 @@
 <template>
-  <div class="nav-container group" @mouseenter="onBlobEnter" @mouseleave="handleMouseLeave">
+  <div
+    class="nav-container group"
+    @mouseenter="onBlobEnter"
+    @mouseleave="handleMouseLeave"
+  >
     <div class="nav-content">
-      <div 
-        class="nav-hover-pill"
-        :style="pillStyle"
-      ></div>
+      <div class="nav-hover-pill" :style="pillStyle"></div>
       <NavBarObj
         class="nav-item"
         v-for="(el, index) in elements"
@@ -14,14 +15,32 @@
         @mouseenter="hoverItem($event, index)"
         @mouseleave="leaveItem"
       />
-      <div 
-        class="nav-item" 
+      <div
+        class="nav-item"
         @click="toggleLang"
         @mouseenter="hoverItem($event, elements.length)"
         @mouseleave="leaveItem"
       >
-        {{ lang === 'en' ? 'PL' : 'EN' }}
+        {{ lang === "en" ? "PL" : "EN" }}
       </div>
+    </div>
+    <div
+      class="nav-chevron absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-200 delay-300 group-hover:delay-0 opacity-100 group-hover:opacity-0"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-8 h-8 text-light-background dark:text-dark-background"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15 19l-7-7 7-7"
+        />
+      </svg>
     </div>
     <div class="nav-ring" :class="ringClass"></div>
   </div>
@@ -60,9 +79,9 @@
     },
     computed: {
       ringClass() {
-        if (this.ringStep === 1) return 'ring-cover';
-        if (this.ringStep === 2) return 'ring-uncover';
-        return '';
+        if (this.ringStep === 1) return "ring-cover";
+        if (this.ringStep === 2) return "ring-uncover";
+        return "";
       },
       pillStyle() {
         return {
@@ -71,7 +90,7 @@
           width: `${this.pillWidth}px`,
           height: `${this.pillHeight}px`,
         };
-      }
+      },
     },
     methods: {
       onBlobEnter() {
@@ -90,7 +109,7 @@
       hoverItem(event, index) {
         if (this.leaveTimeout) clearTimeout(this.leaveTimeout);
         if (this.hoverTimeout) clearTimeout(this.hoverTimeout);
-        
+
         const el = event.currentTarget;
         if (el) {
           const left = el.offsetLeft;
@@ -135,5 +154,3 @@
     },
   };
 </script>
-
-
